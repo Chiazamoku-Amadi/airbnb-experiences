@@ -1,12 +1,7 @@
-import React from "react";
-import "./Pictures.css";
+import React from 'react';
 
-function Pictures() {
-  return <div></div>;
-}
+const Pictures = () => {
+  return <div>Pictures</div>;
+};
 
 export default Pictures;
-
-/* <Header className="header">
-  <img src={logo} alt="header-logo" className="header-logo" />
-</Header>; */
