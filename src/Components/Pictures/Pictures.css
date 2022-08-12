@@ -1,0 +1,116 @@
+.pictures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin: 30px;
+}
+
+.grp {
+  display: flex;
+  flex-direction: column;
+  margin: 1px;
+}
+
+.grp3 {
+  margin-top: 70px;
+}
+
+.grp5 {
+  margin-top: 50px;
+}
+
+.image1 {
+  width: 70px;
+  height: 95px;
+  background: url(../../assets/image1.png);
+  border-radius: 8.95px;
+}
+
+.image2 {
+  width: 70px;
+  height: 60px;
+  background: url(../../assets/image2.png);
+  border-radius: 8.95px;
+}
+
+.image3 {
+  width: 70px;
+  height: 95px;
+  background: url(../../assets/image3.png);
+  border-radius: 8.95px;
+}
+
+.image4 {
+  width: 70px;
+  height: 95px;
+  background: url(../../assets/image4.png);
+  border-radius: 8.95px;
+}
+
+.image5 {
+  width: 70px;
+  height: 95px;
+  background: url(../../assets/image5.png);
+  border-radius: 8.95px;
+}
+
+.image6 {
+  width: 70px;
+  height: 95px;
+  background: url(../../assets/image6.png);
+  border-radius: 8.95px;
+}
+
+.image7 {
+  width: 70px;
+  height: 95px;
+  background: url(../../assets/image7.png);
+  border-radius: 8.95px;
+}
+
+.image8 {
+  width: 70px;
+  height: 95px;
+  background: url(../../assets/image8.png);
+  border-radius: 8.95px;
+}
+
+.image9 {
+  width: 70px;
+  height: 95px;
+  background: url(../../assets/image9.png);
+  border-radius: 8.95px;
+}
+
+.image {
+  margin: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .image1,
+  .image2,
+  .image3,
+  .image4,
+  .image5,
+  .image6,
+  .image7,
+  .image8,
+  .image9 {
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .image1,
+  .image2,
+  .image3,
+  .image4,
+  .image5,
+  .image6,
+  .image7,
+  .image8,
+  .image9 {
+    width: 50px;
+  }
+}
